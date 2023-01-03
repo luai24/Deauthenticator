@@ -27,7 +27,7 @@ customtkinter.set_default_color_theme('dark-blue')
 
 root=customtkinter.CTk()
 root.geometry('500x500')
-
+root.title('Deauthenticator App: Made by Luai Ehsan')
 frame=customtkinter.CTkFrame(master=root)
 frame.pack(pady=20, padx=60, fill='both',expand=True)
 label=customtkinter.CTkLabel(master=frame, text='Deauthenticator App',font=('Roboto',24),width=200)
